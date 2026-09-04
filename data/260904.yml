@@ -7,7 +7,7 @@ about:
   head: 98173e5
   archived: false
   latestVersion: 1.10.8
-  collectedAt: 2026-09-04T20:12:15Z
+  collectedAt: 2026-09-04T20:32:36Z
 timeline:
   created: 2014-05-01
   lastCommit: 2025-12-19
@@ -83,7 +83,7 @@ total:
   commit: 1307
 ---
 path: /home/runner/.x-repo/github.com/ebassi/graphene
-collectedAt: 2026-09-04T20:12:16Z
+collectedAt: 2026-09-04T20:32:37Z
 loc:
   C:
     code: 11991
