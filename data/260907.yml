@@ -5,7 +5,7 @@ about:
   head: 98173e5
   archived: false
   latestVersion: "1.10.8"
-  collectedAt: 2026-09-07T03:15:05Z
+  collectedAt: 2026-09-07T20:10:37Z
 timeline:
   created: 2014-05-01
   lastCommit: 2025-12-19
@@ -81,7 +81,7 @@ total:
   commit: 1307
 ---
 path: /home/runner/.x-repo/github.com/ebassi/graphene
-collectedAt: 2026-09-07T03:15:06Z
+collectedAt: 2026-09-07T20:10:38Z
 loc:
   C:
     code: 11991
@@ -134,13 +134,13 @@ total:
   blanks: 3913
   files: 95
 ---
-date: "2026-08-24"
+date: "2026-09-07"
 repo:
   name: github.com/ebassi/graphene
   commit: 98173e59a3d80d3dd5ad6e4eaab919b4649ac7e5
 scorecard:
-  version: v5.5.1-0.20260815060127-d1fab88f5463
-  commit: d1fab88f54636ff366076edfc5c239f97b3c8e66
+  version: v5.5.0
+  commit: c395761df6afe1a69e476bc60a013a94bcbc153f
 score: 2.2
 checks:
   - name: Packaging
@@ -148,14 +148,6 @@ checks:
     reason: packaging workflow not detected
     details:
       - 'Warn: no GitHub/GitLab publishing workflow detected.'
-  - name: Token-Permissions
-    score: -1
-    reason: No tokens found
-    details: null
-  - name: Dangerous-Workflow
-    score: -1
-    reason: no workflows found
-    details: null
   - name: Code-Review
     score: 2
     reason: Found 2/8 approved changesets -- score normalized to 2
@@ -163,6 +155,14 @@ checks:
   - name: Maintained
     score: 0
     reason: 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+    details: null
+  - name: Token-Permissions
+    score: -1
+    reason: No tokens found
+    details: null
+  - name: Dangerous-Workflow
+    score: -1
+    reason: no workflows found
     details: null
   - name: Binary-Artifacts
     score: 10
@@ -176,11 +176,6 @@ checks:
     score: 0
     reason: no effort to earn an OpenSSF best practices badge detected
     details: null
-  - name: Fuzzing
-    score: 0
-    reason: project is not fuzzed
-    details:
-      - 'Warn: no fuzzer integrations found'
   - name: Security-Policy
     score: 0
     reason: security policy file not detected
@@ -189,6 +184,11 @@ checks:
       - 'Warn: no security file to analyze'
       - 'Warn: no security file to analyze'
       - 'Warn: no security file to analyze'
+  - name: Fuzzing
+    score: 0
+    reason: project is not fuzzed
+    details:
+      - 'Warn: no fuzzer integrations found'
   - name: License
     score: 9
     reason: license file detected
@@ -218,7 +218,7 @@ checks:
       - 'Warn: 0 commits out of 29 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T03:15:06+00:00
+  collectedAt: 2026-09-07T20:10:39+00:00
   platform:
     darwin/arm64:
       name:  null
