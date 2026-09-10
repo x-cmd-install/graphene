@@ -1,24 +1,74 @@
 # graphene
 
+[中文版本](./README.cn.md)
+
 A thin layer of graphic data types
 
-- **Upstream**: <https://github.com/ebassi/graphene>
-- **Homepage**: <http://ebassi.github.io/graphene>
-- **Latest release**: `1.10.8` (2022-03-18)
-- **Last commit**: 2025-12-19
-- **License**: NOASSERTION
-- **Stars**: 437 · **Forks**: 85 · **Open issues**: 110 · **Contributors**: 40
+![graphene](https://repo.x-cmd.io/graphene.svg)
 
-## Installation
+## Install
 
 ```sh
 x install graphene
 ```
 
-See <https://x-cmd.com/install/graphene> for details.
+## Source
 
-## Data
+- **Upstream**: <https://github.com/ebassi/graphene>
+- **Homepage**: <http://ebassi.github.io/graphene>
+- **License**: NOASSERTION
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
+## Release
 
-_Last regenerated: 2026-09-09T18:24:58Z._
+- **Latest**: `1.10.8` (2022-03-18)
+- **Last commit**: 2025-12-19
+- **Published**: 2022-03-18T17:07:21Z
+
+## Popularity
+
+- **Stars**: 437 · **Forks**: 85 · **Open issues**: 110 · **Contributors**: 40
+
+## Totals (cumulative)
+
+- **Releases**: 18 · **Merged PRs**: 150 · **Open PRs**: 6 · **Closed issues**: 98 · **Open issues**: 12 · **Commits**: 1307
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 360d | 2025-09-15 | 0 | 1 | 0 | 1 | 3 | 2 |
+
+## Code size
+
+Total: **18,155** lines of code across **79** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| C | 11,991 | 6,969 | 2,534 | 39 |
+| CHeader | 4,584 | 1,796 | 866 | 29 |
+| Meson | 733 | 48 | 92 | 6 |
+| Svg | 558 | 4 | 4 | 4 |
+| ForgeConfig | 121 | 8 | 10 | 1 |
+
+## OpenSSF Scorecard
+
+Overall score: **2.2 / 10**
+
+Lowest-scoring checks:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (2/10) — Found 2/8 approved changesets -- score normalized to 2
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+
+## Improve this data
+
+Install metadata for graphene lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `graphene` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+
+- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
+- **Edit the package entry**: <https://github.com/x-cmd/edit/main/graphene.yml> (or whichever path the index uses)
+
+The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+
+_Snapshot: `data/card/260910.yml` · 2026-09-10T03:25:14Z._
