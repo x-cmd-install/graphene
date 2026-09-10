@@ -7,7 +7,7 @@ about:
   latestVersion: "1.10.8"
   latestRelease: "1.10.8"
   latestPrerelease: "1.9.6"
-  collectedAt: 2026-09-10T15:51:44Z
+  collectedAt: 2026-09-10T20:17:14Z
 timeline:
   created: 2014-05-01
   lastCommit: 2025-12-19
@@ -85,7 +85,7 @@ total:
   commit: 1307
 ---
 path: /home/runner/.x-repo/github.com/ebassi/graphene
-collectedAt: 2026-09-10T15:51:46Z
+collectedAt: 2026-09-10T20:17:15Z
 loc:
   C:
     code: 11991
