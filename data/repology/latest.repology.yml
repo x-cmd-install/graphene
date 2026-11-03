@@ -1,51 +1,3 @@
-- repo: carbs
-  subrepo: extra
-  srcname: graphene
-  visiblename: graphene
-  version: 1.10.8
-  origversion: null
-  status: newest
-  summary: Thin layer of types for graphic libraries
-  maintainers:
-    - cem@carbslinux.org
-  licenses:
-    - MIT
-- repo: aosc
-  srcname: runtime-imaging/graphene
-  binname: graphene
-  visiblename: graphene
-  version: 1.10.8
-  origversion: 1.10.8-1
-  status: newest
-  summary: A thin layer of graphic data types
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - libs
-- repo: pkgsrc_2026_3
-  srcname: graphics/graphene
-  binname: graphene
-  visiblename: graphics/graphene
-  version: 1.10.8
-  origversion: 1.10.8nb4
-  status: newest
-  summary: Thin layer of graphic data types
-  maintainers:
-    - prlw1@cam.ac.uk
-  categories:
-    - graphics
-- repo: pkgsrc_current
-  srcname: graphics/graphene
-  binname: graphene
-  visiblename: graphics/graphene
-  version: 1.10.8
-  origversion: 1.10.8nb6
-  status: newest
-  summary: Thin layer of graphic data types
-  maintainers:
-    - prlw1@cam.ac.uk
-  categories:
-    - graphics
 - repo: pld
   srcname: graphene
   visiblename: graphene
@@ -60,6 +12,132 @@
   status: newest
   licenses:
     - MIT
+- repo: nix_stable_25_11
+  srcname: graphene
+  visiblename: graphene
+  version: 1.10.8
+  origversion: null
+  status: newest
+  summary: Thin layer of graphic data types
+  maintainers:
+    - jtojnar@gmail.com
+    - rjl931189261@126.com
+  licenses:
+    - MIT
+- repo: aerynos
+  srcname: graphene
+  visiblename: graphene
+  version: 1.10.8
+  origversion: null
+  status: newest
+  summary: A thin layer of types for graphic libraries
+  licenses:
+    - MIT
+- repo: conancenter
+  srcname: graphene
+  visiblename: graphene
+  version: 1.10.8
+  origversion: null
+  status: newest
+- repo: parrot
+  subrepo: parrot/main
+  srcname: graphene
+  binnames:
+    - libgraphene-1.0-0
+    - libgraphene-1.0-dev
+    - libgraphene-doc
+    - graphene-tests
+    - gir1.2-graphene-1.0
+  visiblename: graphene
+  version: 1.10.8
+  origversion: 1.10.8-5
+  status: newest
+  maintainers:
+    - pkg-gnome-maintainers@lists.alioth.debian.org
+    - bigon@debian.org
+    - jbicha@ubuntu.com
+  categories:
+    - misc
+- repo: aosc
+  srcname: runtime-imaging/graphene
+  binname: graphene
+  visiblename: graphene
+  version: 1.10.8
+  origversion: 1.10.8-1
+  status: newest
+  summary: A thin layer of graphic data types
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - libs
+- repo: nix_stable_24_05
+  srcname: graphene
+  visiblename: graphene
+  version: 1.10.8
+  origversion: null
+  status: newest
+  summary: A thin layer of graphic data types
+  maintainers:
+    - rjl931189261@126.com
+    - torhedinbronner@gmail.com
+    - jtojnar@gmail.com
+    - daniel@serbanescu.dk
+  licenses:
+    - MIT
+- repo: crux_37
+  subrepo: opt
+  srcname: graphene
+  visiblename: graphene
+  version: 1.10.8
+  origversion: null
+  status: newest
+  summary: A thin layer of graphic data types
+  maintainers:
+    - tbier@posteo.de
+- repo: crux_37
+  subrepo: compat-32
+  srcname: graphene-32
+  visiblename: graphene-32
+  version: 1.10.8
+  origversion: null
+  status: newest
+  summary: A thin layer of graphic data types
+  maintainers:
+    - compat-32-ports@crux.nu
+- repo: nix_stable_24_11
+  srcname: graphene
+  visiblename: graphene
+  version: 1.10.8
+  origversion: null
+  status: newest
+  summary: Thin layer of graphic data types
+  maintainers:
+    - rjl931189261@126.com
+    - torhedinbronner@gmail.com
+    - jtojnar@gmail.com
+    - daniel@serbanescu.dk
+  licenses:
+    - MIT
+- repo: crux_38
+  subrepo: opt
+  srcname: graphene
+  visiblename: graphene
+  version: 1.10.8
+  origversion: null
+  status: newest
+  summary: A thin layer of graphic data types
+  maintainers:
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: compat-32
+  srcname: graphene-32
+  visiblename: graphene-32
+  version: 1.10.8
+  origversion: null
+  status: newest
+  summary: A thin layer of graphic data types
+  maintainers:
+    - compat-32-ports@crux.nu
 - repo: adelie_current
   subrepo: user
   srcname: graphene
@@ -97,15 +175,6 @@
   summary: Thin layer of graphic data types (development files)
   maintainers:
     - awilfox@adelielinux.org
-  licenses:
-    - MIT
-- repo: aerynos
-  srcname: graphene
-  visiblename: graphene
-  version: 1.10.8
-  origversion: null
-  status: newest
-  summary: A thin layer of types for graphic libraries
   licenses:
     - MIT
 - repo: almalinux_9
@@ -373,6 +442,18 @@
     - MIT
   categories:
     - Unspecified
+- repo: pkgsrc_2026_3
+  srcname: graphics/graphene
+  binname: graphene
+  visiblename: graphics/graphene
+  version: 1.10.8
+  origversion: 1.10.8nb4
+  status: newest
+  summary: Thin layer of graphic data types
+  maintainers:
+    - prlw1@cam.ac.uk
+  categories:
+    - graphics
 - repo: apertis_v2023
   subrepo: v2023/target
   srcname: graphene
@@ -461,23 +542,23 @@
 - repo: arch
   subrepo: extra
   srcname: graphene
-  binname: graphene-docs
-  visiblename: graphene-docs
-  version: 1.10.8
-  origversion: 1.10.8-2
-  status: newest
-  summary: Thin layer of graphic data types (documentation)
-  licenses:
-    - MIT
-- repo: arch
-  subrepo: extra
-  srcname: graphene
   binname: graphene
   visiblename: graphene
   version: 1.10.8
   origversion: 1.10.8-2
   status: newest
   summary: Thin layer of graphic data types
+  licenses:
+    - MIT
+- repo: arch
+  subrepo: extra
+  srcname: graphene
+  binname: graphene-docs
+  visiblename: graphene-docs
+  version: 1.10.8
+  origversion: 1.10.8-2
+  status: newest
+  summary: Thin layer of graphic data types (documentation)
   licenses:
     - MIT
 - repo: aur
@@ -538,25 +619,32 @@
   summary: Thin layer of graphic data types
   licenses:
     - MIT
-- repo: pureos_amber
-  subrepo: amber/main
+- repo: carbs
+  subrepo: extra
   srcname: graphene
-  binnames:
-    - gir1.2-graphene-1.0
-    - graphene-tests
-    - libgraphene-1.0-0
-    - libgraphene-1.0-dev
-    - libgraphene-doc
   visiblename: graphene
-  version: 1.8.4
-  origversion: 1.8.4-1
-  status: outdated
+  version: 1.10.8
+  origversion: null
+  status: newest
+  summary: Thin layer of types for graphic libraries
   maintainers:
-    - pkg-gnome-maintainers@lists.alioth.debian.org
-    - bigon@debian.org
-    - jbicha@debian.org
-  categories:
-    - introspection
+    - cem@carbslinux.org
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: graphene
+  visiblename: graphene
+  version: 1.10.8
+  origversion: null
+  status: newest
+  summary: Thin layer of graphic data types
+  maintainers:
+    - rjl931189261@126.com
+    - daniel@serbanescu.dk
+    - torhedinbronner@gmail.com
+    - jtojnar@gmail.com
+  licenses:
+    - MIT
 - repo: centos_stream_9
   subrepo: AppStream
   srcname: graphene
@@ -670,52 +758,6 @@
   summary: A thin layer of graphic data types
   licenses:
     - MIT
-- repo: conancenter
-  srcname: graphene
-  visiblename: graphene
-  version: 1.10.8
-  origversion: null
-  status: newest
-- repo: crux_37
-  subrepo: opt
-  srcname: graphene
-  visiblename: graphene
-  version: 1.10.8
-  origversion: null
-  status: newest
-  summary: A thin layer of graphic data types
-  maintainers:
-    - tbier@posteo.de
-- repo: crux_37
-  subrepo: compat-32
-  srcname: graphene-32
-  visiblename: graphene-32
-  version: 1.10.8
-  origversion: null
-  status: newest
-  summary: A thin layer of graphic data types
-  maintainers:
-    - compat-32-ports@crux.nu
-- repo: crux_38
-  subrepo: opt
-  srcname: graphene
-  visiblename: graphene
-  version: 1.10.8
-  origversion: null
-  status: newest
-  summary: A thin layer of graphic data types
-  maintainers:
-    - tbier@posteo.de
-- repo: crux_38
-  subrepo: compat-32
-  srcname: graphene-32
-  visiblename: graphene-32
-  version: 1.10.8
-  origversion: null
-  status: newest
-  summary: A thin layer of graphic data types
-  maintainers:
-    - compat-32-ports@crux.nu
 - repo: debian_11
   subrepo: bullseye/main
   srcname: graphene
@@ -1001,21 +1043,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: updates
-  srcname: mingw-graphene
-  binnames:
-    - mingw32-graphene
-    - mingw64-graphene
-  visiblename: mingw-graphene
-  version: 1.10.8
-  origversion: 1.10.8-6.fc41
-  status: newest
-  summary: Thin layer of types for graphic libraries
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: release
   srcname: graphene
   binnames:
@@ -1040,6 +1067,21 @@
   visiblename: mingw-graphene
   version: 1.10.8
   origversion: 1.10.8-5.fc41
+  status: newest
+  summary: Thin layer of types for graphic libraries
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: mingw-graphene
+  binnames:
+    - mingw32-graphene
+    - mingw64-graphene
+  visiblename: mingw-graphene
+  version: 1.10.8
+  origversion: 1.10.8-6.fc41
   status: newest
   summary: Thin layer of types for graphic libraries
   licenses:
@@ -1370,23 +1412,12 @@
 - repo: manjaro_stable
   subrepo: extra
   srcname: graphene
-  binname: graphene-docs
-  visiblename: graphene-docs
-  version: 1.10.8
-  origversion: 1.10.8-2
-  status: newest
-  summary: Thin layer of graphic data types (documentation)
-  licenses:
-    - MIT
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: graphene
   binname: graphene
   visiblename: graphene
   version: 1.10.8
-  origversion: 1.10.8-2
+  origversion: 1.10.8-1
   status: newest
-  summary: Thin layer of graphic data types
+  summary: A thin layer of graphic data types
   licenses:
     - MIT
 - repo: manjaro_testing
@@ -1395,20 +1426,9 @@
   binname: graphene
   visiblename: graphene
   version: 1.10.8
-  origversion: 1.10.8-2
+  origversion: 1.10.8-1
   status: newest
-  summary: Thin layer of graphic data types
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: graphene
-  binname: graphene-docs
-  visiblename: graphene-docs
-  version: 1.10.8
-  origversion: 1.10.8-2
-  status: newest
-  summary: Thin layer of graphic data types (documentation)
+  summary: A thin layer of graphic data types
   licenses:
     - MIT
 - repo: manjaro_unstable
@@ -1474,60 +1494,6 @@
   summary: A thin layer of graphic data types (mingw-w64)
   licenses:
     - spdx:MIT
-- repo: nix_stable_24_05
-  srcname: graphene
-  visiblename: graphene
-  version: 1.10.8
-  origversion: null
-  status: newest
-  summary: A thin layer of graphic data types
-  maintainers:
-    - rjl931189261@126.com
-    - torhedinbronner@gmail.com
-    - jtojnar@gmail.com
-    - daniel@serbanescu.dk
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: graphene
-  visiblename: graphene
-  version: 1.10.8
-  origversion: null
-  status: newest
-  summary: Thin layer of graphic data types
-  maintainers:
-    - rjl931189261@126.com
-    - torhedinbronner@gmail.com
-    - jtojnar@gmail.com
-    - daniel@serbanescu.dk
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: graphene
-  visiblename: graphene
-  version: 1.10.8
-  origversion: null
-  status: newest
-  summary: Thin layer of graphic data types
-  maintainers:
-    - rjl931189261@126.com
-    - daniel@serbanescu.dk
-    - torhedinbronner@gmail.com
-    - jtojnar@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: graphene
-  visiblename: graphene
-  version: 1.10.8
-  origversion: null
-  status: newest
-  summary: Thin layer of graphic data types
-  maintainers:
-    - jtojnar@gmail.com
-    - rjl931189261@126.com
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: graphene
   visiblename: graphene
@@ -1672,6 +1638,18 @@
     - MIT
   categories:
     - Unspecified
+- repo: pkgsrc_current
+  srcname: graphics/graphene
+  binname: graphene
+  visiblename: graphics/graphene
+  version: 1.10.8
+  origversion: 1.10.8nb6
+  status: newest
+  summary: Thin layer of graphic data types
+  maintainers:
+    - prlw1@cam.ac.uk
+  categories:
+    - graphics
 - repo: openeuler_25_03
   srcname: graphene
   binnames:
@@ -1851,25 +1829,6 @@
     - MIT
   categories:
     - System/Libraries
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: graphene
-  binnames:
-    - gir1.2-graphene-1.0
-    - graphene-tests
-    - libgraphene-1.0-0
-    - libgraphene-1.0-dev
-    - libgraphene-doc
-  visiblename: graphene
-  version: 1.10.4
-  origversion: 1.10.4+dfsg1-1
-  status: outdated
-  maintainers:
-    - pkg-gnome-maintainers@lists.alioth.debian.org
-    - bigon@debian.org
-    - jbicha@debian.org
-  categories:
-    - introspection
 - repo: openmandriva_cooker
   subrepo: main/release
   srcname: graphene
@@ -1974,25 +1933,6 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
-  srcname: graphene
-  binnames:
-    - libgraphene-1.0-0
-    - libgraphene-1.0-dev
-    - libgraphene-doc
-    - graphene-tests
-    - gir1.2-graphene-1.0
-  visiblename: graphene
-  version: 1.10.8
-  origversion: 1.10.8-5
-  status: newest
-  maintainers:
-    - pkg-gnome-maintainers@lists.alioth.debian.org
-    - bigon@debian.org
-    - jbicha@ubuntu.com
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot-updates/main
   srcname: graphene
   binnames:
@@ -2046,6 +1986,44 @@
     - prlw1@cam.ac.uk
   categories:
     - graphics
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: graphene
+  binnames:
+    - gir1.2-graphene-1.0
+    - graphene-tests
+    - libgraphene-1.0-0
+    - libgraphene-1.0-dev
+    - libgraphene-doc
+  visiblename: graphene
+  version: 1.8.4
+  origversion: 1.8.4-1
+  status: outdated
+  maintainers:
+    - pkg-gnome-maintainers@lists.alioth.debian.org
+    - bigon@debian.org
+    - jbicha@debian.org
+  categories:
+    - introspection
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: graphene
+  binnames:
+    - gir1.2-graphene-1.0
+    - graphene-tests
+    - libgraphene-1.0-0
+    - libgraphene-1.0-dev
+    - libgraphene-doc
+  visiblename: graphene
+  version: 1.10.4
+  origversion: 1.10.4+dfsg1-1
+  status: outdated
+  maintainers:
+    - pkg-gnome-maintainers@lists.alioth.debian.org
+    - bigon@debian.org
+    - jbicha@debian.org
+  categories:
+    - introspection
 - repo: pureos_landing
   subrepo: landing/main
   srcname: graphene
