@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 440 · **Forks**: 85 · **Open issues**: 110 · **Contributors**: 40
+- **Stars**: 440 · **Forks**: 86 · **Open issues**: 111 · **Contributors**: 40
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 150 · **Open PRs**: 6 · **Closed issues**: 98 · **Open issues**: 12 · **Commits**: 1307
+- **Releases**: 18 · **Merged PRs**: 150 · **Open PRs**: 7 · **Closed issues**: 98 · **Open issues**: 13 · **Commits**: 1307
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-27 | 0 | 0 | 0 | 0 | 1 | 0 |
-| 360d | 2025-11-28 | 0 | 1 | 0 | 1 | 3 | 2 |
-| last720d | 2024-12-03 | 0 | 4 | 1 | 3 | 4 | 11 |
+| 30d | 2026-10-25 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-09-25 | 0 | 0 | 1 | 0 | 1 | 0 |
+| 90d | 2026-08-26 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last180d | 2026-05-28 | 0 | 0 | 1 | 0 | 2 | 0 |
+| 360d | 2025-11-29 | 0 | 1 | 1 | 1 | 4 | 2 |
+| last720d | 2024-12-04 | 0 | 4 | 2 | 3 | 5 | 11 |
 
 ## Distribution status
 
@@ -92,4 +92,4 @@ Install metadata for graphene lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T06:05:10Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T08:43:42Z._
